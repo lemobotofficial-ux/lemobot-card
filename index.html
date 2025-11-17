@@ -1,21 +1,64 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <title>Lemobot NFC Card - Ajinkya</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Instant redirect -->
-  <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbzp3b7CuAJoUSH9FNr0nDb5KZB5jyJWizoNKWrD-ir9xw-7JMJpou12YlXaML1CYfkl2Q/exec">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+    }
 
-  <script>
-      // Fallback redirect
-      window.location.href = "https://script.google.com/macros/s/AKfycbzp3b7CuAJoUSH9FNr0nDb5KZB5jyJWizoNKWrD-ir9xw-7JMJpou12YlXaML1CYfkl2Q/exec";
-  </script>
+    body {
+      background: #f3f4f6;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .shell {
+      height: 100%;
+      width: 100%;
+    }
+
+    iframe {
+      border: 0;
+      width: 100%;
+      height: 100vh;
+      display: block;
+    }
+
+    .fallback {
+      padding: 16px;
+      text-align: center;
+      font-size: 14px;
+      color: #4b5563;
+    }
+
+    .fallback a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
 </head>
 <body>
-  <p>
-    Redirecting to Lemobot NFC form…  
-    If nothing happens, <a href="https://script.google.com/macros/s/AKfycbzp3b7CuAJoUSH9FNr0nDb5KZB5jyJWizoNKWrD-ir9xw-7JMJpou12YlXaML1CYfkl2Q/exec">click here</a>.
-  </p>
+  <div class="shell">
+    <!-- Apps Script form embedded here -->
+    <iframe
+      src="https://script.google.com/macros/s/AKfycbzp3b7CuAJoUSH9FNr0nDb5KZB5jyJWizoNKWrD-ir9xw-7JMJpou12YlXaML1CYfkl2Q/exec">
+    </iframe>
+    <noscript>
+      <div class="fallback">
+        JavaScript is required.  
+        Open the form directly:
+        <a href="https://script.google.com/macros/s/AKfycbzp3b7CuAJoUSH9FNr0nDb5KZB5jyJWizoNKWrD-ir9xw-7JMJpou12YlXaML1CYfkl2Q/exec">
+          Lemobot NFC Form
+        </a>
+      </div>
+    </noscript>
+  </div>
 </body>
 </html>
